@@ -1,0 +1,111 @@
+/*html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit;}*/
+.title{
+font-family: "Poppins",sans-serif;
+text-align: center;
+font-size: 32px;
+color: #2e363a;
+font-weight: 600;
+}
+.isi{
+margin-top: 50px;
+text-align: center;
+font-size: 16px;
+line-height: 27px;
+color: #666666;
+}
+
+.isi img{
+  width: 100%;
+  margin: auto;
+  display: block;
+  max-width: 180px;
+}
+.rowcontent {
+border-top-width: 1px !important;
+padding-top: 12px !important;
+padding-bottom: 100px !important;
+background-color: #f8f8f8 !important;
+border-top-color: #ebebeb !important;
+border-top-style: solid !important;
+}
+.content h1{
+	text-align: center;
+}
+
+.content p{
+	width: 95%;
+  height: auto;
+   margin: auto;
+   font-size: 18px;
+}
+
+.content img{
+	width: 100%;
+	margin: auto;
+	display: block;
+	max-width: 250px;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 700px) {
+  /*.topnav a:not(:first-child) {display: none;}*/
+  .content img {
+     width: 100%;
+  max-width: 120px;
+	height: auto;
+	margin: auto;
+	display: block;
+  }
+
+  .content h1{
+  width: 100%;
+  font-size: 25px;
+  text-align: center;
+  }
+
+  .content p{
+  width: 95%;
+  height: auto;
+   margin: auto;
+  font-size: 14px;
+  }
+
+  .avatar img{
+    max-width: 120px;
+    max-height: 120px;
+  }
+}
+
+.scrollmenu {
+  background-color: #3333;
+  overflow: auto;
+  white-space: nowrap;
+}
+.scrollmenu img {
+  display: inline-block;
+  max-height: 450px;
+  max-width: 450px;
+  padding: 10px;
+  /*text-decoration: none;*/
+}
+
+.scrollmenu img:hover {
+  /*background-color: #777;*/
+}
+
+.break{
+  max-height: 19px;
+  max-width: 67px;
+  margin: auto;
+  display: block;
+}
+
+.banner{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(ban.png);
+}
+
+.avatar img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
